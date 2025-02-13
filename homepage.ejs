@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testing</title>
+</head>
+<body>
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <button type="submit">Submit</button>
+    </form>
+    <br> <br> <br>
+    <form action="/getfile" method="GET">
+        <input type="text" placeholder="Enter the doc_id to get">
+        <button type="submit">Get</button>
+    </form>
+</body>
+</html>
